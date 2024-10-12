@@ -11,8 +11,8 @@ async function bootstrap() {
 
 	// Use DocumentBuilder to create a new Swagger document configuration
 	const config = new DocumentBuilder()
-		.setTitle("Recipes API") // Set the title of the API
-		.setDescription("Recipes API description") // Set the description of the API
+		.setTitle("Pokedex API")
+		.setDescription("Pokedex API description")
 		.setVersion("0.1") // Set the version of the API
 		.build(); // Build the document
 
@@ -23,7 +23,7 @@ async function bootstrap() {
 	SwaggerModule.setup("api", app, document);
 
 	// Start the application and listen for requests on port 3000
-	await app.listen(3000);
+	await app.listen(process.env.PORT || 3000);
 }
 
 // Call the bootstrap function to start the application
