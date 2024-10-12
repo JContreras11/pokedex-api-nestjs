@@ -80,6 +80,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
+## Despliegue
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+La aplicación está desplegada y accesible en la siguiente URL:
+
+[https://pokedex-api-nestjs.vercel.app/](https://pokedex-api-nestjs.vercel.app/)
+
+## Licencia
+
+Nest tiene [licencia MIT](https://github.com/nestjs/nest/blob/master/LICENSE).
